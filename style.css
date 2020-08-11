@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+   
+}
+
+
+.menu{
+    width: 99,9%;
+    height:  100px;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    align-items: center;
+    border: 5px solid transparent;
+    border-image: linear-gradient(to right, #5390d9 0%, #6930c3 100%) 1;
+    /* background-image: repeating-radial-gradient(circle at right,red, yellow 10%, green 15%); */
+    background-image: repeating-radial-gradient(ellipse farthest-side at left bottom, #4ea8de 0%, #5390d9 10%, #5e60ce 20%);
+}
+.logo{
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    top: 70px;
+    left: 35px;
+    
+}
+.lista{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-family: cursive;
+    
+    
+}
+ 
+.lista li a{
+    padding: 16px;
+    /* font-family: 'Indie Flower', cursive; */
+    /* font-family: 'Luckiest Guy', cursive; */
+    /* font-family: 'Gloria Hallelujah', cursive; */
+    font-family: 'Monoton', cursive;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    /* -webkit-text-stroke: 0.9px black; */
+    
+}
+.pruebas{
+    width: 1500px;
+    height: 1000px;
+    background: url(src/videof.mp4);
+    background-attachment: fixed;
+}
+.video{
+    display: flex;
+    justify-content: center;
+    background: black;
+
+    
+}
+.elvideo{
+    max-width: 100%;
+  height: auto;
+
+
+}
