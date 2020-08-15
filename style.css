@@ -13,7 +13,6 @@
     align-items: center;
     border: 5px solid transparent;
     border-image: linear-gradient(to right, #5390d9 0%, #6930c3 100%) 1;
-    /* background-image: repeating-radial-gradient(circle at right,red, yellow 10%, green 15%); */
     background-image: repeating-radial-gradient(ellipse farthest-side at left bottom, #4ea8de 0%, #5390d9 10%, #5e60ce 20%);
 }
 .logo{
@@ -29,38 +28,40 @@
     justify-content: center;
     list-style: none;
     font-family: cursive;
+    align-items: center;
     
     
 }
  
 .lista li a{
-    padding: 16px;
-    /* font-family: 'Indie Flower', cursive; */
-    /* font-family: 'Luckiest Guy', cursive; */
-    /* font-family: 'Gloria Hallelujah', cursive; */
+    padding: 10px;
     font-family: 'Monoton', cursive;
     text-decoration: none;
     color: white;
+    font-size: 20px; 
+}
+.icono {
+    padding-right: 0px;
+    color: black;
     font-size: 20px;
-    /* -webkit-text-stroke: 0.9px black; */
+    text-decoration: none;
+    padding-bottom: 0;
     
 }
-.pruebas{
-    width: 1500px;
-    height: 1000px;
-    background: url(src/videof.mp4);
-    background-attachment: fixed;
-}
-.video{
+.portada{
     display: flex;
     justify-content: center;
-    background: black;
-
-    
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    background-image: url(src/portada2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-.elvideo{
-    max-width: 100%;
-  height: auto;
-
-
+.portada h1{
+    font-size: 80px;
+    font-family: 'Rye', cursive;
+    background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+       -webkit-text-fill-color: transparent;
+	      -webkit-background-clip: text;
 }
