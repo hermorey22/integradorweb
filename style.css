@@ -57,12 +57,12 @@
 }
 
 .portada {
+    width: 100vw;
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
-    height: 400px;
-    background-image: url(src/portada3.jpg);
+    background-image: url(src/portada1920x400.jpg);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -73,36 +73,32 @@
     background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    position: absolute;
-    top: 170px;
+    padding-bottom: 200px;
 }
 
 @media screen and (max-width:480px) {
     .cabecera {
         height: 80px;
     }
-}
-
-.logo {
-    width: 75px;
-    height: 50px;
-    top: 50px;
-    left: 10px;
-}
-
-.logoredsocial {
-    width: 30px;
-    height: 30px;
-    padding-left: 15px;
-}
-.links{
-    display: none;
-}
-.portada{
-    background-image: url(src/portada4802.jpg);
-    
-}
-.portada h1 {
-    font-size: 32px;
-    top: 125px
+    .logo {
+        width: 75px;
+        height: 50px;
+        top: 50px;
+        left: 10px;
+    }
+    .logoredsocial {
+        width: 30px;
+        height: 30px;
+        padding-left: 15px;
+    }
+    .links {
+        display: none;
+    }
+    .portada {
+        background-image: url(src/portada480x250.jpg);
+    }
+    .portada h1 {
+        font-size: 35px;
+        top: 140px
+    }
 }
