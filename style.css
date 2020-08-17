@@ -72,18 +72,11 @@
     position: absolute;
     top: 170px;   
 }
-@media screen and (max-width:480px){
+@media screen  and (max-width:480px){
     .cabecera{
-        width: 99.9vw;
-        height: 50px;
-        display: flex;
-        justify-content: flex-end;
-        position: relative;
-        align-items: center;
-        border: 4px solid transparent;
-        border-image: linear-gradient(to right, #5390d9 0%, #6930c3 100%) 1;
-        background-image: repeating-radial-gradient(ellipse farthest-side at left bottom, #4ea8de 0%, #5390d9 10%, #5e60ce 20%);
+        height: 120px;
     }
+}
     /* .logo{
         width: 75px;
         height: 50px;
