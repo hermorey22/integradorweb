@@ -48,7 +48,7 @@
     font-size: 20px;
 }
 
-.logosderedes {
+.linksderedes {
     display: flex;
     justify-content: center;
     list-style: none;
@@ -75,6 +75,53 @@
     -webkit-background-clip: text;
     padding-bottom: 200px;
 }
+@media screen and (max-width:1024px) {
+    .logo {
+        width: 120px;
+        height: 85px;
+        top: 40px;
+        left: 5px;
+    }
+    .logoredsocial {
+        padding-left: 10px;
+    }
+    .linksderedes{
+        padding: 0px;
+    }
+    
+    .portada {
+        background-image: url(src/portada1600x400.jpg);
+    }
+    .portada h1 {
+        font-size: 50px;
+        padding-bottom: 300px;
+    }
+} 
+
+@media screen and (max-width:870px) {
+    .cabecera {
+        height: 80px;
+    }
+    .logo {
+        width: 115px;
+        height: 90px;
+        top: 40px;
+        left: 10px;
+    }
+    .logoredsocial {
+        padding-left: 25px;
+    }
+    .links {
+        display: none;
+    }
+    .portada {
+        background-image: url(src/portada1600x400.jpg);
+    }
+    .portada h1 {
+        font-size: 50px;
+        padding-bottom: 300px;
+    }
+}
 
 @media screen and (max-width:480px) {
     .cabecera {
@@ -84,7 +131,7 @@
         width: 75px;
         height: 50px;
         top: 50px;
-        left: 10px;
+        
     }
     .logoredsocial {
         width: 30px;
@@ -95,10 +142,29 @@
         display: none;
     }
     .portada {
+        height: 250px;
         background-image: url(src/portada480x250.jpg);
     }
     .portada h1 {
         font-size: 35px;
-        top: 140px
+        padding-bottom: 110px;
+    }
+}
+@media screen and (max-width:322px) {
+    .logo {
+        width: 75px;
+        height: 50px;
+        top: 50px;
+    }
+    
+    .logoredsocial {
+        width: 45px;
+        height: 45px;
+        padding-left: 10px;
+    }
+    
+    .portada h1 {  
+        font-size: 29px;
+        padding-bottom:150px;
     }
 }
