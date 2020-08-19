@@ -140,19 +140,17 @@ input, .logomenu, .logox {
         top: 50px;
     }
     .logoredsocial {
-        width: 30px;
-        height: 30px;
-        padding-left: 15px;
+        width: 48px;
+        height: 48px;
+        padding-left: 8px;
     }
     input[type="checkbox"], .logomenu, .logox {
         position: absolute;
         box-sizing: border-box;
         margin: 0;
         padding: 0;
-        right: 130px;
-        top: 12px;
-        width: 48px;
-        height: 48px;
+        right: 170px;
+        top: 17px;
     }
     .logomenu, .logox {
         width: 40px;
