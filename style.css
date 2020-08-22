@@ -134,3 +134,49 @@ background-size: 100% 100%;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
 }
+.mapa{
+    width: 100vw;
+    height: 400px;
+    background-image: url(src/fondomapa.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.contacto{
+    width: 99, 9%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 5px solid transparent;
+    border-image: linear-gradient(to left, #5390d9 0%, #6930c3 100%) 1;
+    background-image: linear-gradient(to right, white 0%, #5390d9 50%, #5e60ce 100%);
+    margin: 0;
+    position: relative;
+}
+#redes p{
+    font-family: 'Monoton', cursive;
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+    position: absolute;
+    left:260px;
+    top: 5px;
+    margin: 0px;
+
+}
+#newsletter p{
+    font-family: 'Monoton', cursive;
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+}
+.iconos{
+    display: flex;
+    list-style: none;
+    position: absolute;
+    left:160px;
+    top: 20px;
+}
