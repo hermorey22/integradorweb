@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+}
+
+.fondodepagina{
+    background: url(src/fondogeneral.jpg) no-repeat center center fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.fordodeinicio{
+    width: 210px;
+    height: 400px;
+    border: 3px orangered solid;
+    margin-top: 80px;
+    background-color: white;
+    opacity: .93;
+    text-align: center;
+    font-style: italic;
+    font-size: 25px;
+    border-radius: .80rem;
+    
+}
+h3{
+    font-size: 30px;
+    font-family: 'Monoton', cursive;
+    color: #f9320c;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    padding-top: 5px;  
+}
+.fomulario{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+    
+}
+.bloque form input{
+    margin: 10px;  
+}
+.bloque form button{
+   margin: 10px;   
+}
+.botonIngreso{
+    width: 162px;
+    height:35px;
+    background-color: #247AFD;
+    border: 1px black solid;
+    font-family: 'Baumans', cursive;
+    font-size: 20px;
+    border-radius: .80rem;
+    text-align: center;  
+}
+.botonIngreso p{
+    margin: 0px;
+}
+.botonOlvide{
+    width: 162px;
+    height:42px;
+    background-color: #D8DCD6;
+    border: 1px gray solid;
+    font-family: 'Baumans', cursive;
+    font-size: 17px;
+    border-radius: .80rem;
+    
+}
+.botonOlvide p{
+    margin: 0px;
+}
+
+@media (max-width:1440px){
+    .fordodeinicio{
+        height: 500px;
+    }
+    .bloque form button{
+       margin-top: 30px; 
+    
+}
+}
+@media (min-width:1441px){
+    .fordodeinicio{
+        height: 500px;
+    }
+    .bloque form button{
+       margin-top: 30px; 
+    
+}
+}
