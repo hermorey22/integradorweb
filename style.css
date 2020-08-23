@@ -78,12 +78,27 @@ body{
     row-gap: 20px;
     padding-top: 30px;
     height: 800px;
-}
-.dj{
-    border: 10px ridge #6930c3;
-    padding: 10px;
     text-align: center;
 }
+.dj{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.dj h1 {
+    color: #fff;
+    font-family: impact;
+    font-size: 40px;
+    /* letter-spacing: 0; */
+    text-shadow: -3px -3px 3px #0000DF, 3px -3px 3px #0000DF, -3px 3px 3px #0000DF, 3px 3px 3px #0000DF;
+}
+.dj p{
+    color:red ;
+    font-family: 'Courier New', Courier, monospace;
+    background: white;
+    opacity: .5;
+}
+
 #dj1{
 background-image: url(src/deadmau5dj1.jpg);
 background-size: 100% 100%;
