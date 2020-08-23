@@ -13,7 +13,20 @@ body {
     background-image: linear-gradient(to right, #5390d9 50%, #5e60ce 100%);
     margin: 0;
 }
+#botonIngreso,#botonRegistrar{
+    width: 162px;
+    height: 35px;
+    background-color: #247AFD;
+    border: 1px black solid;
+    font-family: 'Baumans', cursive;
+    font-size: 20px;
+    border-radius: .80rem;
+    text-align: center;
+}
+#botonRegistrar{
+    background-color: orangered;
 
+}
 .fondodepagina {
     background-image: url(src/fondogeneral.jpg);
     background-size: 100% 100%;
@@ -24,7 +37,7 @@ body {
 }
 
 .fordodeinicio {
-    width: 210px;
+    width: 600px;
     height: 400px;
     border: 3px orangered solid;
     margin-top: 80px;
@@ -34,20 +47,24 @@ body {
     font-style: italic;
     font-size: 25px;
     border-radius: .80rem;
+    text-align: center;
+    
+}
+.Titulos{
+    padding-bottom: 10px;
+    padding-top: 5px;
+    margin: 0%;
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'Monoton', cursive;
-    color: #f9320c;
+    color: #ff0000;
+    margin: 0%;
 }
-
-.fomulario {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-    padding-top: 10px;
+.bloque{
+    display: grid;
+    grid-template-columns: 1fr 1 fr;
 }
 
 .bloque form input {
@@ -58,7 +75,7 @@ h3 {
     margin: 10px;
 }
 
-.botonIngreso {
+#botonCompra {
     width: 162px;
     height: 35px;
     background-color: #247AFD;
@@ -69,21 +86,7 @@ h3 {
     text-align: center;
 }
 
-.botonIngreso p {
-    margin: 0px;
-}
-
-.botonOlvide {
-    width: 162px;
-    height: 42px;
-    background-color: #D8DCD6;
-    border: 1px gray solid;
-    font-family: 'Baumans', cursive;
-    font-size: 17px;
-    border-radius: .80rem;
-}
-
-.botonOlvide p {
+#botonCompra p {
     margin: 0px;
 }
 
@@ -98,12 +101,14 @@ h3 {
     margin: 0;
 }
 
-#redes p {
+  #redes p {
     font-family: 'Monoton', cursive;
     text-decoration: none;
     color: black;
     font-size: 25px;
     margin: 0px;
+    padding-left: 100px;
+    padding-top: 5px;
 }
 
 #newsletter p {
@@ -112,6 +117,17 @@ h3 {
     color: black;
     font-size: 25px;
     margin: 0px;
+    padding-bottom: 10px;
+}
+#redes ul{
+    display: flex;
+    list-style: none;
+    margin: 0px;
+}
+.logoredsocial {
+    width: 50px;
+    height: 50px;
+    padding-left: 10px;
 }
 
 /* @media (max-width:1440px) {

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio de sesion</title>
+    <title>Compra</title>
     <link rel="stylesheet" href="compra.css">
     <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@500&family=Monoton&display=swap"
         rel="stylesheet">
@@ -14,43 +14,48 @@
 
 <body>
     <header class="menu">
-        <button>
+        <button id="botonIngreso">
             Ingresar
         </button>
-        <button>
+        <button id="botonRegistrar">
             Registrate
         </button>
     </header>
     <div class="fondodepagina">
         <fieldset class="fordodeinicio">
             <legend>
-                <h3>Inicio de sesion</h3>
+                <h3>Realiza Tu Compra</h3>
             </legend>
             <div class="bloque">
                 <form class="fomulario" action="">
-
-
-                    <input type="email" placeholder="Usuario">
-                    <input type="password" placeholder="Contraseña">
-                    <button class="botonIngreso">
-                        <p>Ingresar</p>
+                    <p class="Titulos">Datos</p>
+                    <input type="text" placeholder="Nombre">
+                    <input type="text" placeholder="Apellido">
+                    <p class="Titulos">Tipo de tarjeta</p>
+                    <select name="menu">
+                        <option value="1">Visa</option>
+                        <option value="2">MasterCard</option>
+                        <option value="3">American Express</option>
+                    </select>
+                    <input type="number" placeholder="numero de tarjeta">
+                    <p class="Titulos">Cantidad de tickets</p>
+                    <select name="menu">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                    <button id="botonCompra">
+                        <p>Comprar</p>
                     </button>
-                    <button class="botonOlvide">
-                        <p>Olvide mi Contraseña</p>
-                    </button>
-
-
-
                 </form>
 
             </div>
         </fieldset>
     </div>
     <footer class="contacto">
-        <!-- <div id="redes">
+        <div id="redes">
             <p>Redes</p>
-            <div>
-                <ul class="iconos">
+                <ul>
                     <li><a href="https://www.instagram.com">
                             <img src="src/iconoinsta.png" alt="" class="logoredsocial">
                         </a></li>
@@ -61,15 +66,12 @@
                             <img src="src/iconowhatsapp.png" alt="" class="logoredsocial">
                         </a></li>
                 </ul>
-            </div>
+        </div>
 
-
-        </div> -->
-
-        <!-- <div id="newsletter">
+        <div id="newsletter">
             <p> Suscríbete</p>
             <input type="text" placeholder="Ingresa tu email">
-        </div> -->
+        </div>
     </footer>
 
 </body>
