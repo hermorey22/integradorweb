@@ -1,8 +1,8 @@
-body{
+body {
     margin: 0;
 }
 
-.menu{
+.menu {
     width: 99, 9%;
     height: 100px;
     display: flex;
@@ -14,9 +14,11 @@ body{
     background-image: repeating-radial-gradient(ellipse farthest-side at left bottom, #4ea8de 0%, #5390d9 10%, #5e60ce 20%);
     margin: 0;
 }
-.menu nav{
+
+.menu nav {
     display: flex;
 }
+
 .logo {
     width: 150px;
     height: 100px;
@@ -30,6 +32,7 @@ body{
     height: 50px;
     padding-left: 10px;
 }
+
 .opcionesNavegacion {
     display: flex;
     justify-content: center;
@@ -53,7 +56,8 @@ body{
     font-family: cursive;
     align-items: center;
 }
-.portada{
+
+.portada {
     width: 100%;
     height: 250px;
     background-image: url(src/portada1600x900.jpg);
@@ -62,16 +66,18 @@ body{
     justify-content: center;
     align-items: center;
 }
+
 .portada h1 {
     font-size: 80px;
     font-family: 'Rye', cursive;
     background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    padding-bottom:80px;
+    padding-bottom: 80px;
     margin: 0px;
 }
-.losdj{
+
+.losdj {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 10px;
@@ -80,11 +86,13 @@ body{
     height: 800px;
     text-align: center;
 }
-.dj{
+
+.dj {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
 }
+
 .dj h1 {
     color: #fff;
     font-family: impact;
@@ -92,41 +100,45 @@ body{
     /* letter-spacing: 0; */
     text-shadow: -3px -3px 3px #0000DF, 3px -3px 3px #0000DF, -3px 3px 3px #0000DF, 3px 3px 3px #0000DF;
 }
-.dj p{
-    color:red ;
+
+.dj p {
+    color: red;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background: white;
     opacity: .5;
 }
 
-#dj1{
-background-image: url(src/deadmau5dj1.jpg);
-background-size: 100% 100%;
+#dj1 {
+    background-image: url(src/deadmau5dj1.jpg);
+    background-size: 100% 100%;
 }
-#dj2{
+
+#dj2 {
     background-image: url(src/djcazzette.jpg);
     background-size: 100% 100%;
 }
-#dj3{
+
+#dj3 {
     background-image: url(src/djSquarepusher.jpg);
     background-size: 100% 100%;
 }
-#dj4{
+
+#dj4 {
     background-image: url(src/Marshmello-750x400.jpg);
     background-size: 100% 100%;
     grid-column: 2/2;
 }
 
-.galeriadevideos{
+.galeriadevideos {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 10px;
     gap: 10px;
 }
-#videodj1,#videodj2,#videodj3,#videodj4{
+
+#videodj1, #videodj2, #videodj3, #videodj4 {
     width: 800px;
     height: 280px;
-
 }
 
 @keyframes efectoFondo {
@@ -142,12 +154,12 @@ background-size: 100% 100%;
     75% {
         background-color: #2DFE54;
     }
-
     100% {
         background-color: #5e60ce;
     }
 }
-.fondoanimado{
+
+.fondoanimado {
     width: 99, 9%;
     height: 1500px;
     animation-name: efectoFondo;
@@ -157,45 +169,43 @@ background-size: 100% 100%;
     animation-direction: alternate-reverse;
 }
 
-.dj.col-1,.videos{
-    border-width: 15px 15px; 
-    border-radius: 20px; 
-  }
-  @keyframes animacionBorde{
+.dj.col-1, .videos {
+    border-width: 15px 15px;
+    border-radius: 20px;
+}
+
+@keyframes animacionBorde {
     0% {
-      border-color: #5390d9;
-      border-top-color:#6930c3;
+        border-color: #5390d9;
+        border-top-color: #6930c3;
     }
-  
     25% {
-      border-color: #5390d9;
-      border-right-color: #6930c3;
+        border-color: #5390d9;
+        border-right-color: #6930c3;
     }
-  
     50% {
-      border-color: #5390d9;
-      border-bottom-color:#6930c3;
+        border-color: #5390d9;
+        border-bottom-color: #6930c3;
     }
-  
     75% {
-      border-color: #5390d9;
-      border-left-color: #6930c3;
+        border-color: #5390d9;
+        border-left-color: #6930c3;
     }
-  
     100% {
-      border-color: #5390d9;
-      border-top-color: #6930c3;
+        border-color: #5390d9;
+        border-top-color: #6930c3;
     }
-  }
-  
-  .dj {
+}
+
+.dj {
     border: 15px solid black;
-   }
-  .dj.row-1,.videos {
-  animation: animacionBorde 750ms linear infinite;
-  }
-  
-.mapa{
+}
+
+.dj.row-1, .videos {
+    animation: animacionBorde 750ms linear infinite;
+}
+
+.mapa {
     width: 99, 9%;
     height: 400px;
     background-image: url(src/fondomapa.jpg);
@@ -203,9 +213,9 @@ background-size: 100% 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
-.contacto{
+
+.contacto {
     width: 99, 9%;
     height: 100px;
     display: flex;
@@ -217,18 +227,19 @@ background-size: 100% 100%;
     margin: 0;
     position: relative;
 }
-#redes p{
+
+#redes p {
     font-family: 'Monoton', cursive;
     text-decoration: none;
     color: black;
     font-size: 25px;
     position: absolute;
-    left:260px;
+    left: 260px;
     top: 5px;
     margin: 0px;
-
 }
-#newsletter p{
+
+#newsletter p {
     font-family: 'Monoton', cursive;
     text-decoration: none;
     color: black;
@@ -237,74 +248,70 @@ background-size: 100% 100%;
     position: absolute;
     top: 4px;
 }
-#newsletter input{
+
+#newsletter input {
     position: absolute;
     top: 50px;
 }
-.iconos{
+
+.iconos {
     display: flex;
     list-style: none;
     position: absolute;
-    left:160px;
+    left: 160px;
     top: 20px;
 }
-    /* @media screen and (max-width: 480px){ 
-        .logo {
-            width: 100px;
-            height: 50px;
-            top: 77px;
-            left: 5px;
-        }
-        .opcionesNavegacion li a {
-            padding: 5px;
-            font-size: 11.5px;
-        }
-        .redesSociales{
-            margin: 0px;
-            padding: 0%;
-        }
-        .logoredsocial {
-            width: 35px;
-            height: 35px;
-        }
-        .portada h1 {
-            font-size: 37px;
-            padding-bottom:20px;
-            margin: 0px;
-        }
-        .losdj{
-            width: 380px;
-            height: 1000px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        
-        }
-        .dj{
-            width: 340px;
-            height: 200px;
-        }
-        .dj h1 {
-            font-size: 25px;
-            
-        }
-        .dj p{
-            font-size: 13px;
-        }
 
-
-    .galeriadevideos{
+@media screen and (max-width: 375px) {
+    .logo {
+        width: 100px;
+        height: 50px;
+        top: 77px;
+        left: 5px;
+    }
+    .opcionesNavegacion li a {
+        padding: 5px;
+        font-size: 11.5px;
+    }
+    .redesSociales {
+        margin: 0px;
+        padding: 0%;
+    }
+    .logoredsocial {
+        width: 35px;
+        height: 35px;
+    }
+    .portada h1 {
+        font-size: 37px;
+        padding-bottom: 20px;
+        margin: 0px;
+    }
+    .losdj {
+        width: 380px;
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .dj {
+        width: 340px;
+        height: 200px;
+    }
+    .dj h1 {
+        font-size: 25px;
+    }
+    .dj p {
+        font-size: 13px;
+    }
+    .galeriadevideos {
         display: flex;
         flex-direction: column;
     }
-    #videodj1,#videodj2,#videodj3,#videodj4{
+    #videodj1, #videodj2, #videodj3, #videodj4 {
         width: 320px;
         height: 280px;
-
-
     }
-
-    .contacto{
+    .contacto {
         width: 99, 9%;
         height: 100px;
         display: flex;
@@ -316,18 +323,17 @@ background-size: 100% 100%;
         margin: 0;
         position: relative;
     }
-    #redes p{
+    #redes p {
         font-family: 'Monoton', cursive;
         text-decoration: none;
         color: black;
         font-size: 25px;
         position: absolute;
-        left:0px;
+        left: 0px;
         top: 0px;
         margin: 0px;
-
     }
-    #newsletter p{
+    #newsletter p {
         font-family: 'Monoton', cursive;
         text-decoration: none;
         color: black;
@@ -336,22 +342,15 @@ background-size: 100% 100%;
         position: absolute;
         top: 0px;
     }
-    #newsletter input{
+    #newsletter input {
         position: absolute;
         top: 0px;
     }
-    .iconos{
+    .iconos {
         display: flex;
         list-style: none;
         position: absolute;
-        left:0px;
+        left: 0px;
         top: 20px;
     }
-
-
-
-
-
-
-
-    } */
+}
