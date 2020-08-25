@@ -3,7 +3,7 @@ body {
 }
 
 .menu {
-    width: 99, 9%;
+    width: 99,9%;
     height: 100px;
     display: flex;
     justify-content: flex-end;
@@ -160,7 +160,7 @@ body {
 }
 
 .fondoanimado {
-    width: 99, 9%;
+    width:100vw;
     height: 1500px;
     animation-name: efectoFondo;
     animation-duration: 2s;
@@ -287,7 +287,7 @@ body {
         margin: 0px;
     }
     .losdj {
-        width: 380px;
+        width: 340px;
         height: 1000px;
         display: flex;
         flex-direction: column;
@@ -303,16 +303,13 @@ body {
     .dj p {
         font-size: 13px;
     }
-    .galeriadevideos {
-        display: flex;
-        flex-direction: column;
-    }
+    
     #videodj1, #videodj2, #videodj3, #videodj4 {
-        width: 320px;
-        height: 280px;
+        width: 140px;
+        height: 130px;
     }
     .contacto {
-        width: 99, 9%;
+        width: 99,9%;
         height: 100px;
         display: flex;
         justify-content: space-evenly;
