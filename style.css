@@ -132,13 +132,14 @@
 .galeriadevideos {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 10px;
+    padding-left: 90px;
+    padding-top: 20px;
     gap: 10px;
 }
 
 #videodj1, #videodj2, #videodj3, #videodj4 {
-    width: 800px;
-    height: 280px;
+    width: 500px;
+    height: 300px;
 }
 
 @keyframes efectoFondo {
@@ -161,7 +162,7 @@
 
 .fondoanimado {
     width: 100%;
-    height: 1500px;
+    height: 1550px;
     animation-name: efectoFondo;
     animation-duration: 2s;
     animation-timing-function: ease;
@@ -214,6 +215,10 @@
     justify-content: center;
     align-items: center;
 }
+.goolgemaps {
+    width: 700px;
+    height: 375px;
+}
 
 .contacto {
     width: 99.9%;
@@ -221,6 +226,7 @@
     background-image: linear-gradient(to right, white 0%, #5390d9 50%, #5e60ce 100%);
     margin: 0;
 }
+
 
 #texto {
     display: flex;
@@ -246,6 +252,23 @@
     display: flex;
     list-style: none;
     margin: 0px;
+}
+
+@media screen and (max-width: 1024px){
+
+    .fondoanimado {
+        
+        height: 1650px;
+
+    }
+
+
+    #videodj1, #videodj2, #videodj3, #videodj4 {
+        width: 450px;
+        height: 350px;
+    }
+
+
 }
 
 @media screen and (max-width: 780px) {
