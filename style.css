@@ -1,4 +1,4 @@
-body {
+*{
     margin: 0;
 }
 
@@ -160,7 +160,7 @@ body {
 }
 
 .fondoanimado {
-    width:100vw;
+    width:99.9%;
     height: 1500px;
     animation-name: efectoFondo;
     animation-duration: 2s;
@@ -217,49 +217,32 @@ body {
 
 .contacto {
     width: 99.9%;
-    height: 100px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    border: 5px solid transparent;
-    border-image: linear-gradient(to left, #5390d9 0%, #6930c3 100%) 1;
+    height: 80px;
     background-image: linear-gradient(to right, white 0%, #5390d9 50%, #5e60ce 100%);
     margin: 0;
-    position: relative;
 }
-
-#redes p {
-    font-family: 'Monoton', cursive;
-    text-decoration: none;
-    color: black;
-    font-size: 25px;
-    position: absolute;
-    left: 260px;
-    top: 5px;
-    margin: 0px;
-}
-
-#newsletter p {
+#texto{
+    display: flex;
+    justify-content: space-evenly;
     font-family: 'Monoton', cursive;
     text-decoration: none;
     color: black;
     font-size: 25px;
     margin: 0px;
-    position: absolute;
-    top: 4px;
 }
-
-#newsletter input {
-    position: absolute;
-    top: 50px;
+.iconoeinput{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px;
 }
+.iconoeinput input{
+    border-radius: 2rem;
 
+}
 .iconos {
     display: flex;
     list-style: none;
-    position: absolute;
-    left: 160px;
-    top: 20px;
+    margin: 0px;
 }
 
 @media screen and (max-width: 375px) {
@@ -312,38 +295,19 @@ body {
         width: 140px;
         height: 130px;
     }
-    .contacto {
-        width: 99.9%;
-        height: 100px;
-        position: static;
-        border: 0px;
-    }
-    #redes p {
-        font-family: 'Monoton', cursive;
-        text-decoration: none;
+    #texto{
         color: black;
-        font-size: 25px;
-        position: static;
+        font-size: 18px;
+        margin: 0px;
+    }
+    .iconoeinput{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0px;
+        align-content: center;
     }
     .iconos {
-        display: flex;
-        list-style: none;
-        position: static; 
-        margin: 0;
-        
-    }
-    #newsletter p {
-        font-family: 'Monoton', cursive;
-        text-decoration: none;
-        color: black;
-        font-size: 20px;
-        margin: 0px;
-        position: static;
-        
-       
-    }
-    #newsletter input {
-        position: static;
+      padding: 0px;
     }
     
 }
