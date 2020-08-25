@@ -206,7 +206,7 @@ body {
 }
 
 .mapa {
-    width: 99, 9%;
+    width: 100vw;
     height: 400px;
     background-image: url(src/fondomapa.jpg);
     background-size: 100% 100%;
@@ -216,7 +216,7 @@ body {
 }
 
 .contacto {
-    width: 99, 9%;
+    width: 99.9%;
     height: 100px;
     display: flex;
     justify-content: space-evenly;
@@ -293,6 +293,10 @@ body {
         flex-direction: column;
         justify-content: center;
     }
+    .fondoanimado {
+        height: 1400px;
+    }
+    
     .dj {
         width: 340px;
         height: 200px;
@@ -309,45 +313,37 @@ body {
         height: 130px;
     }
     .contacto {
-        width: 99,9%;
+        width: 99.9%;
         height: 100px;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        border: 5px solid transparent;
-        border-image: linear-gradient(to left, #5390d9 0%, #6930c3 100%) 1;
-        background-image: linear-gradient(to right, white 0%, #5390d9 50%, #5e60ce 100%);
-        margin: 0;
-        position: relative;
+        position: static;
+        border: 0px;
     }
     #redes p {
         font-family: 'Monoton', cursive;
         text-decoration: none;
         color: black;
         font-size: 25px;
-        position: absolute;
-        left: 0px;
-        top: 0px;
-        margin: 0px;
+        position: static;
+    }
+    .iconos {
+        display: flex;
+        list-style: none;
+        position: static; 
+        margin: 0;
+        
     }
     #newsletter p {
         font-family: 'Monoton', cursive;
         text-decoration: none;
         color: black;
-        font-size: 25px;
+        font-size: 20px;
         margin: 0px;
-        position: absolute;
-        top: 0px;
+        position: static;
+        
+       
     }
     #newsletter input {
-        position: absolute;
-        top: 0px;
+        position: static;
     }
-    .iconos {
-        display: flex;
-        list-style: none;
-        position: absolute;
-        left: 0px;
-        top: 20px;
-    }
+    
 }
